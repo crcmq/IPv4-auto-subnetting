@@ -37,7 +37,7 @@ To convert it to human-readable format, we use subnet mask:
 IPv4 address has two portions: network portion and host portion. To determine the network portion, use logical AND for each bit: </br>
 For example: 192.168.1.1 /24 
 
-| | |
+| Field | Value |
 | --- | --- |
 | IPv4 host | 11000000 10101000 00000001 00000001 |
 | Subnet Mask | 11111111 11111111 11111111 00000000 |
