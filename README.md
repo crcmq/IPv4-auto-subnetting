@@ -35,13 +35,14 @@ To convert it to human-readable format, we use subnet mask:
 
 ### **Determine the network**
 IPv4 address has two portions: network portion and host portion. To determine the network portion, use logical AND for each bit: </br>
-For example: 192.168.1.1 /24 </br>
+For example: 192.168.1.1 /24 
 
+| | |
 | --- | --- |
 | IPv4 host | 11000000 10101000 00000001 00000001 |
 | Subnet Mask | 11111111 11111111 11111111 00000000 |
 | Logical AND | 11000000 10101000 00000001 00000000 |
-</br>
+
 The logical AND result is network address: 192.168.1.0 </br>
 And the host portion is last ".1". (i.e., the last 8 bits of IPv4 binary address)
 </br>
@@ -81,14 +82,17 @@ For example, network address is 192.168.1.0 /24 and the table below is the requi
 | network2 | 20 |
 | network3 | 6 |
 </br>
-Then we can allocate addresses as below: </br>
+Then we can allocate addresses as below: 
+
 | network name | allocated addresses | prefix |
 | --- | --- | --- |
 | network2 | 32 | 27 |
 | network3 | 8 | 29 |
 | network1 | 4 | 30 |
+
 </br>
-Finally, allocate network addresses from the biggest one </br>
+Finally, allocate network addresses from the biggest one 
+
 | network name | network address |
 | --- | --- |
 | network2 | 192.168.1.0 |
