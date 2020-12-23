@@ -81,14 +81,14 @@ For example, network address is 192.168.1.0 /24 and the table below is the requi
 | network2 | 20 |
 | network3 | 6 |
 </br>
-Then we can allocate addresses as below:
+Then we can allocate addresses as below: </br>
 | network name | allocated addresses | prefix |
 | --- | --- | --- |
 | network2 | 32 | 27 |
 | network3 | 8 | 29 |
 | network1 | 4 | 30 |
 </br>
-Finally, allocate network addresses from the biggest one
+Finally, allocate network addresses from the biggest one </br>
 | network name | network address |
 | --- | --- |
 | network2 | 192.168.1.0 |
